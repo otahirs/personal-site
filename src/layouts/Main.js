@@ -14,6 +14,7 @@ const Main = (props) => (
     <Helmet titleTemplate="%s | Michael D'Angelo" defaultTitle="Michael D'Angelo" defer={false}>
       {props.title && <title>{props.title}</title>}
       <meta name="description" content={props.description} />
+      <script defer data-domain="otahirs.cz" src="https://anal.otahirs.cz/js/plausible.js" />
     </Helmet>
     <div id="wrapper">
       <Navigation />
