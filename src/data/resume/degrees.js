@@ -1,15 +1,9 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
-  },
-  {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'Masaryk University',
+    degree: 'Programming and development',
+    link: 'https://is.muni.cz/auth/person/485661',
+    year: 2018,
   },
 ];
 

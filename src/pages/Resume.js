@@ -7,7 +7,7 @@ import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
 import Skills from '../components/Resume/Skills';
 import Courses from '../components/Resume/Courses';
-import References from '../components/Resume/References';
+// import References from '../components/Resume/References';
 
 import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
@@ -19,7 +19,7 @@ const sections = [
   'Experience',
   'Skills',
   'Courses',
-  'References',
+  // 'References',
 ];
 
 const Resume = () => (
@@ -31,6 +31,10 @@ const Resume = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="resume">Resume</Link></h2>
+          <p>
+            Interested in proposals for fun and challenging positions or projects,<br />
+            involving learning new stuff and having real world impact.
+          </p>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>
@@ -44,7 +48,7 @@ const Resume = () => (
       <Experience data={positions} />
       <Skills skills={skills} categories={categories} />
       <Courses data={courses} />
-      <References />
+      {/* <References /> */}
 
     </article>
   </Main>
