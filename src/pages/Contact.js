@@ -16,9 +16,21 @@ const Contact = () => (
           <h2 data-testid="heading"><Link to="/contact">Contact</Link></h2>
         </div>
       </header>
+      <div>
+        <p>
+          Do you want to say thanks?
+          Do I miss you an apology?
+          Is there a meaning in life?
+        </p>
+      </div>
       <div className="email-at">
-        <p>Feel free to get in touch. You can email me at: </p>
+        <p>
+          Feel free to get in touch. You can email me at: <br />
+        </p>
         <EmailLink />
+      </div>
+      <div>
+        <p>or use any (social) platform from bellow list:</p>
       </div>
       <ContactIcons />
     </article>
