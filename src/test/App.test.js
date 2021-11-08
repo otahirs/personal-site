@@ -15,11 +15,13 @@ import NotFound from '../pages/NotFound';
 import Projects from '../pages/Projects';
 import Resume from '../pages/Resume';
 import Stats from '../pages/Stats';
+import Orienteering from '../pages/Orienteering';
+import Diary from '../pages/Diary';
 
 const pages = [
   {
     route: '/',
-    heading: 'About this site',
+    heading: 'Hello there!',
     component: Index,
   },
   {
@@ -46,6 +48,16 @@ const pages = [
     route: '/resume',
     heading: 'Resume',
     component: Resume,
+  },
+  {
+    route: '/orienteering',
+    heading: 'Orienteering',
+    component: Orienteering,
+  },
+  {
+    route: '/diary',
+    heading: 'Diary of thoughts',
+    component: Diary,
   },
 ];
 
