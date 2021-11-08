@@ -29,7 +29,7 @@ const Index = () => (
         <Link to="/diary">diary of thoughts</Link> {' '}
         .
         <br />
-        You can check out my resume {' '}
+        You can check out my {' '}
         <Link to="/resume">resume</Link> or take a peak at my {' '}
         <Link to="/projects">projects</Link>. {' '}
         {/* view <Link to="/stats">site statistics</Link>, {' '} */}
