@@ -19,11 +19,15 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Otakar.
-        I am a friendly guy
-        of <a href="https://www.16personalities.com/intp-personality">INTP-A</a> personality,
-        studying at Faculty of Informatics to b̶e̶c̶o̶m̶e̶ ̶f̶i̶l̶t̶h̶y̶ ̶r̶i̶c̶h̶
-        explore the everchanging nature of IT world.
+      <p>Hi,
+        <br />
+        I&apos;m Otakar,
+        <a href="https://www.16personalities.com/intp-personality" target="_blank" rel="noreferrer"> INTP-A</a> personality,
+        <a href="https://www.youtube.com/watch?v=1rF5SSa29O8" target="_blank" rel="noreferrer"> orienteering</a> enthusiast,
+        <a href="https://is.muni.cz/person/485661" target="_blank" rel="noreferrer"> student</a> of Faculty of Informatics.
+        <br />
+        I see myself as a friendly compasionate guy with an unusual sense of humor, but in
+        reality I might come out just as offensive and annoying.
       </p>
       <ul className="actions">
         <li>
@@ -37,7 +41,10 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Otakar Hirš <Link to="/">otahirs.cz</Link>.</p>
+      <p className="copyright">
+        &copy; Otakar Hirš. All Rights Reserved. <br />
+        Kudos to <a href="https://github.com/mldangelo/personal-site" target="_blank" rel="noreferrer">Michael D&apos;Angelo</a>
+      </p>
     </section>
   </section>
 );
