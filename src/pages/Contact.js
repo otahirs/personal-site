@@ -19,7 +19,7 @@ const Contact = () => (
       <div>
         <p>
           Do you want to say thanks?
-          Do I miss you an apology?
+          Do I owe you an apology?
           Is there a meaning in life?
         </p>
       </div>
