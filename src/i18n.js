@@ -15,13 +15,10 @@ i18n
   // init i18next
   // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
-    // whitelist: ['en', 'cs'],
+    supportedLngs: ['cs', 'en'],
     fallbackLng: 'en',
-    ns: ['translation', 'about', 'routes', 'contact'],
-    // detection: {
-    //   checkWhitelist: true, // options for language detection
-    // },
-    debug: true,
+    ns: ['translation', 'about', 'contact', 'projects', 'resume', 'routes'],
+    debug: false,
     backend: {
       loadPath: '/locales/{{lng}}/{{ns}}.yaml',
       parse: (data) => yaml.load(data),
