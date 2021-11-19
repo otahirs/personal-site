@@ -1,0 +1,1 @@
+Hodně myšlěnek vyžaduje hodně času

@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { withTranslation } from 'react-i18next';
 
 import CategoryButton from './Skills/CategoryButton';
 import SkillBar from './Skills/SkillBar';
 
-const handleProps = ({ categories, skills }) => ({
-  buttons: categories.map((cat) => cat.name).reduce((obj, key) => ({
+const handleProps = ({ categories, skills, t }) => ({
+  buttons: categories.map((cat) => t(cat.name)).reduce((obj, key) => ({
     ...obj,
     [key]: false,
   }), { All: true }),
   skills,
+  t,
 });
 
 class Skills extends Component {
   constructor(props) {
     super(props);
-    this.state = handleProps({ categories: props.categories, skills: props.skills });
+    this.state = handleProps({ categories: props.categories, skills: props.skills, t: props.t });
   }
 
   getRows() {
@@ -33,7 +35,7 @@ class Skills extends Component {
       else if (a.title > b.title) ret = 1;
       else if (a.title < b.title) ret = -1;
       return ret;
-    }).filter((skill) => (actCat === 'All' || skill.category.includes(actCat)))
+    }).filter((skill) => (actCat === 'All' || skill.category.map(this.props.t).includes(actCat)))
       .map((skill) => (
         <SkillBar
           categories={this.props.categories}
@@ -46,7 +48,7 @@ class Skills extends Component {
   getButtons() {
     return Object.keys(this.state.buttons).map((key) => (
       <CategoryButton
-        label={key}
+        label={this.props.t(key)}
         key={key}
         active={this.state.buttons}
         handleClick={this.handleChildClick}
@@ -72,9 +74,9 @@ class Skills extends Component {
       <div className="skills">
         <div className="link-to" id="skills" />
         <div className="title">
-          <h3>Skills</h3>
+          <h3>{this.props.t('Skills')}</h3>
           <p>
-            Here is a *mostly* honest overview of my language proficiencies.
+            {this.props.t('Here is a *mostly* honest overview of my language proficiencies.')}
           </p>
         </div>
         <div className="skill-button-container">
@@ -98,6 +100,7 @@ Skills.propTypes = {
     name: PropTypes.string,
     color: PropTypes.string,
   })),
+  t: PropTypes.func.isRequired,
 };
 
 Skills.defaultProps = {
@@ -105,4 +108,4 @@ Skills.defaultProps = {
   categories: [],
 };
 
-export default Skills;
+export default withTranslation('resume')(Skills);

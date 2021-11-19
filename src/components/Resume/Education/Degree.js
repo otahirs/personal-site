@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { withTranslation } from 'react-i18next';
 
-const Degree = ({ data }) => (
+const Degree = ({ data, t }) => (
   <article className="degree-container">
     <header>
-      <h4 className="degree">{data.degree}</h4>
-      <p className="school"><a href={data.link}>{data.school}</a>, {data.year} - now</p>
+      <h4 className="degree">{t(data.degree)}</h4>
+      <p className="school"><a href={data.link}>{t(data.school)}</a>, {data.year} - {t('now')}</p>
     </header>
   </article>
 );
@@ -17,6 +18,7 @@ Degree.propTypes = {
     school: PropTypes.string.isRequired,
     year: PropTypes.number.isRequired,
   }).isRequired,
+  t: PropTypes.func.isRequired,
 };
 
-export default Degree;
+export default withTranslation('resume')(Degree);

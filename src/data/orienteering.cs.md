@@ -1,0 +1,1 @@
+Někdy dopíšu

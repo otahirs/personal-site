@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
 // Validates the first half of an email address.
 const validateText = (text) => {
@@ -45,25 +46,26 @@ const useInterval = (callback, delay) => {
 };
 
 const EmailLink = () => {
+  const { t } = useTranslation('contact');
   const hold = 50; // ticks to wait after message is complete before rendering next message
   const delay = 50; // tick length in mS
 
   const [idx, updateIter] = useState(0); // points to current message
-  const [message, updateMessage] = useState(messages[idx]);
-  const [char, updateChar] = useState(messages[idx].length); // points to current char
+  const [message, updateMessage] = useState(t(messages[idx]));
+  const [char, updateChar] = useState(t(messages[idx]).length); // points to current char
   const [isActive, setIsActive] = useState(true); // disable when all messages are printed
 
   useInterval(() => {
     let newIdx = idx;
     let newChar = char;
-    if (char - hold >= messages[idx].length) {
+    if (char - hold >= t(messages[idx]).length) {
       newIdx += 1;
       newChar = 0;
     }
     if (newIdx === messages.length) {
       setIsActive(false);
     } else {
-      updateMessage(messages[newIdx].slice(0, newChar));
+      updateMessage(t(messages[newIdx]).slice(0, newChar));
       updateIter(newIdx);
       updateChar(newChar + 1);
     }

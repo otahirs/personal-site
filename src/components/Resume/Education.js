@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { withTranslation } from 'react-i18next';
 
 import Degree from './Education/Degree';
 
-const Education = ({ data }) => (
+const Education = ({ data, t }) => (
   <div className="education">
     <div className="link-to" id="education" />
     <div className="title">
-      <h3>Education</h3>
+      <h3>{t('Education')}</h3>
     </div>
     {data.map((degree) => (
       <Degree
@@ -25,10 +26,11 @@ Education.propTypes = {
     link: PropTypes.string,
     year: PropTypes.number,
   })),
+  t: PropTypes.func.isRequired,
 };
 
 Education.defaultProps = {
   data: [],
 };
 
-export default Education;
+export default withTranslation('resume')(Education);

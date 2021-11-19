@@ -1,19 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { withTranslation } from 'react-i18next';
 // import dayjs from 'dayjs';
 
-const Cell = ({ data }) => (
+const Cell = ({ data, t }) => (
   <div className="cell-container">
     <article className="mini-post">
       <header>
-        <h3><a href={data.link}>{data.title}</a></h3>
-        <p className="published">{data.subtitle}</p>
+        <h3><a href={data.link}>{t(data.title)}</a></h3>
+        <p className="published">{t(data.subtitle)}</p>
       </header>
       <a href={data.link} className="image">
-        <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
+        <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={t(data.title)} />
       </a>
       <div className="description">
-        <p>{data.desc}</p>
+        <p>{t(data.desc)}</p>
       </div>
     </article>
   </div>
@@ -28,6 +29,7 @@ Cell.propTypes = {
     // date: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,
   }).isRequired,
+  t: PropTypes.func.isRequired,
 };
 
-export default Cell;
+export default withTranslation('projects')(Cell);

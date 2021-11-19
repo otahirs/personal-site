@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation, Trans } from 'react-i18next';
 
 import Main from '../layouts/Main';
 
@@ -14,44 +15,49 @@ import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
 import { skills, categories } from '../data/resume/skills';
 
-const sections = [
-  'Education',
-  'Experience',
-  'Skills',
-  'Courses',
-  // 'References',
-];
+// const sections = [
+//   'Education',
+//   'Experience',
+//   'Skills',
+//   'Courses',
+//   // 'References',
+// ];
 
-const Resume = () => (
-  <Main
-    title="Resume"
-    description="Otakar Hirš's Resume. Education. Experience. Skills."
-  >
-    <article className="post" id="resume">
-      <header>
-        <div className="title">
-          <h2 data-testid="heading"><Link to="resume">Resume</Link></h2>
-          <p>
-            Interested in proposals for fun and challenging positions or projects,<br />
-            involving learning new stuff and having real world impact.
-          </p>
-          <div className="link-container">
-            {sections.map((sec) => (
-              <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
-              </h4>))}
+const Resume = () => {
+  const { t } = useTranslation('resume');
+  return (
+    <Main
+      title={t('Resume')}
+      description={t("Otakar Hirš's Resume. Education. Experience. Skills.")}
+    >
+      <article className="post" id="resume">
+        <header>
+          <div className="title">
+            <h2 data-testid="heading"><Link to="resume">{t('Resume')}</Link></h2>
+            <p>
+              <Trans i18nKey="SUBTITLE" t={t}>
+                You can send me proposals for fun projects or interesting jobs.<br />
+                I enjoy learning new things and crave for real world impact.
+              </Trans>
+            </p>
+            {/* <div className="link-container">
+              {sections.map((sec) => (
+                <h4 key={sec}>
+                  <a href={`#${sec.toLowerCase()}`}>{sec}</a>
+                </h4>))}
+            </div> */}
+
           </div>
+        </header>
+        <Education data={degrees} />
+        <Experience data={positions} />
+        <Skills skills={skills} categories={categories} />
+        <Courses data={courses} />
+        {/* <References /> */}
 
-        </div>
-      </header>
-      <Education data={degrees} />
-      <Experience data={positions} />
-      <Skills skills={skills} categories={categories} />
-      <Courses data={courses} />
-      {/* <References /> */}
-
-    </article>
-  </Main>
-);
+      </article>
+    </Main>
+  );
+};
 
 export default Resume;

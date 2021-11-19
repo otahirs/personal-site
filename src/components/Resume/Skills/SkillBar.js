@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { withTranslation } from 'react-i18next';
 
-const SkillBar = ({ data, categories }) => {
+const SkillBar = ({ data, categories, t }) => {
   const { category, competency, title } = data;
 
   // TODO: Consider averaging colors
@@ -18,7 +19,7 @@ const SkillBar = ({ data, categories }) => {
 
   return (
     <div className="skillbar clearfix">
-      <div className="skillbar-title" style={titleStyle}><span>{title}</span></div>
+      <div className="skillbar-title" style={titleStyle}><span>{t(title)}</span></div>
       <div className="skillbar-bar" style={barStyle} />
       <div className="skill-bar-percent">{competency} / 5</div>
     </div>
@@ -35,10 +36,11 @@ SkillBar.propTypes = {
     name: PropTypes.string,
     color: PropTypes.string,
   })),
+  t: PropTypes.func.isRequired,
 };
 
 SkillBar.defaultProps = {
   categories: [],
 };
 
-export default SkillBar;
+export default withTranslation('resume')(SkillBar);

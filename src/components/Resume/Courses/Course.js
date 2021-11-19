@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { withTranslation } from 'react-i18next';
 
-const Course = ({ data, last }) => (
+const Course = ({ data, last, t }) => (
   <li className="course-container">
     <a href={data.link}>
       <h4 className="course-number">{data.number}:</h4>
-      <p className="course-name">{data.title}</p>
+      <p className="course-name">{t(data.title)}</p>
     </a>
     {!last && <div className="course-dot"><p className="course-name"> &#8226;</p></div>}
   </li>
@@ -18,10 +19,11 @@ Course.propTypes = {
     title: PropTypes.string.isRequired,
   }).isRequired,
   last: PropTypes.bool,
+  t: PropTypes.func.isRequired,
 };
 
 Course.defaultProps = {
   last: false,
 };
 
-export default Course;
+export default withTranslation('resume')(Course);
