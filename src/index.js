@@ -1,11 +1,14 @@
 import React from 'react';
 import { hydrate, render } from 'react-dom';
+import './i18n';
 import App from './App';
 
 // See https://reactjs.org/docs/strict-mode.html
 const StrictApp = () => (
   <React.StrictMode>
-    <App />
+    <React.Suspense fallback="">
+      <App />
+    </React.Suspense>
   </React.StrictMode>
 );
 
