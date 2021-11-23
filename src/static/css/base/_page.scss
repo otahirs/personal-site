@@ -23,6 +23,11 @@
 			}
 		}
 
+	// Remove outline on mobile menu
+	:focus-visible {
+		outline: none;
+	}
+
 	body {
 		background: _palette(bg-alt);
 
