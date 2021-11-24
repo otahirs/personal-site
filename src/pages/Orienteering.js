@@ -7,9 +7,6 @@ import rehypeRaw from 'rehype-raw';
 
 import Main from '../layouts/Main';
 
-// Make all hrefs react router links
-const LinkRenderer = ({ ...children }) => <Link {...children} />;
-
 // uses babel to load contents of file
 const markdown = raw('../data/orienteering.md');
 const markdownCS = raw('../data/orienteering.cs.md');
@@ -28,7 +25,7 @@ const Orienteering = () => {
             <p>{t('7 minutes behind')}</p>
           </div>
         </header>
-        <ReactMarkdown components={{ a: LinkRenderer }} rehypePlugins={[rehypeRaw]}>
+        <ReactMarkdown rehypePlugins={[rehypeRaw]}>
           {i18n.language === 'cs' ? markdownCS : markdown}
         </ReactMarkdown>
       </article>
