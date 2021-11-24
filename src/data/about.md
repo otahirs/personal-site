@@ -1,4 +1,4 @@
-I love to castrate, let this site be proof of that
+I love to procrastinate, let this site be proof of that
 <!-- # Who am i
 
 # School
