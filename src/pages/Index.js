@@ -30,22 +30,22 @@ const Index = () => {
         </p>
         <p>
           <Trans i18nKey="BRAG" t={t}>
-            Please feel free to read more <Link to="/about">about me</Link>,
+            Please feel free to read more <Link to="/about" style={{ fontWeight: 'bold' }}>about me</Link>,
             go through my {' '}
-            <Link to="/orienteering">orienteering</Link> {' '}
+            <Link to="/orienteering" style={{ fontWeight: 'bold' }}>orienteering</Link> {' '}
             career or gaze at my {' '}
-            <Link to="/diary">diary of thoughts</Link> {' '}
+            <Link to="/diary" style={{ fontWeight: 'bold' }}>diary of thoughts</Link> {' '}
             .
             <br />
             You can check out my {' '}
-            <Link to="/resume">resume</Link> or take a peak at my {' '}
-            <Link to="/projects">projects</Link>.
+            <Link to="/resume" style={{ fontWeight: 'bold' }}>resume</Link> or take a peak at my {' '}
+            <Link to="/projects" style={{ fontWeight: 'bold' }}>projects</Link>.
           </Trans>
         </p>
         <p>
           <Trans i18nKey="WRITEMEPLS" t={t}>
             Don&apos;t feel ashamed to {' '}
-            <Link to="/contact">contact</Link> {' '}
+            <Link to="/contact" style={{ fontWeight: 'bold' }}>contact</Link> {' '}
             me in any matter. I will be happy to hear from you.
           </Trans>
         </p>
