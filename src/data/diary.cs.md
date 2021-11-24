@@ -11,7 +11,10 @@ Pomocí zraku vnímáme 80 % informací kolem nás, přesto jde jen o odražené
 Přicházíme na svět s dvěma základními pudy: strachem ze smrti a snahou přivést na svět další generaci. A není to málo, Antone Pavloviči? Po tisíce let jsme neměli moc prostoru pochybovat co je na Zemi naším cílem, jakmile máme však základní potřeby naplněny, můžeme se cítít lehce ztraceni. Genetika a vrozené pudy nás dovedli až na okraj zeměplochy, dále však musíme sami.
 
 Není těžké dojít k závěru, že život nemá smysl. Jedinou jistotou je smrt. Po ní jsme zapomenuti, a to spíše dříve než později. I tak však můžeme využít tu směšnou šanci, že vůbec máme možnost bloudit časoprostorem. Tento (doslova) vybájený cirkus lidské společnosti nabízí spoustu příležitostí naplnit náš mozek chemikáliemi navozující pocit štěstí, a bez poslednho soudu na konci našeho povětšinou tragikomického života není důvod prosědět celou existenci schoulený někde v koutě. Že jsme se nenarodili se smyslem života, ještě neznamená, že jej nelze v průběhu naší cesty nalézt. Hodně štěstí.
+
+<div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/psaCM1j9LEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 # Dospívání
 Narodíme se jako maličká hloupoučká stvoření, která jsou zcela závislá na péči okolí. Jak postupně rosteme zjišťujeme, že na světě nejsme sami. Naučíme se (apoň většina), že nejsme středobodem vesmíru a musíme 100 jednotek pozornosti, prostor i ostatní zdroje sdílet s ostatními.
@@ -27,7 +30,9 @@ U žen je třeba si přiznat základní věc. Jde o jiné bytosti než my (muži
 
 Při psaní jsem zapomněl, jaká měla být pointa, takže to tu ukončím, hlavní je si povšimnout, že autor vlastně zastává názor, který zároveň vyvrací. Nezbývá než dodat, že bychom měli holky podporovat, protože to nemají vždy tak jednoduché.
 
+<div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2pS0zeCNn38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 # V zajetí pozornosti
 Za každou sociální sítí je hromada inženýrů, kteří mají jedinný cíl - udržet nás na platformě co nejdelší dobu, abychom zhlédli co nejvíce reklam. Pomocí sledování našecho chování dostáváme na tělo namíchaný kokteil příspěvků/videí produkující dopamin v co nejvyšší míře. Výsledkem je spokojené konzumování obsahu a usměv na tváři. 
@@ -39,7 +44,9 @@ Není nadto občas překonat nutkání, všechno zavřít a oddat se pocitu nudy
 # Boj s vnitřním introvertem
 Žádný člověk není čistokrevný introvert ani extrovert, ale nějaká kombinace obojího. Přijde mi, že já spádám spíše na pozici introverta, nejlíp je mi s kamarády a s cizími lidmi se seznamuji spíše z donucení. Co bych však chtěl vyzdvihnout je, že když se sám sebe zeptám, kolikrát jsem zpětně litoval, že jsem vyrazil někam do společnosti, vpodstatě mě nic nenapadá. Myslím, že stojí zato občas překonat svůj vnitřní boj, někam se dokolébat a pak už si jen říct, že to není tak zlé. Od nějaké chvíle tak o sobě tvrdím, že jsem extrovert z donucení, protože přes počáteční nechuť se za chvíli i z cizích lidí mohou stát kamarádi a pak už si dokáže užít zábavu i introvert.
 
+<div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MdG4f5Y3ugk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 # Více až se zase budu nudit
 ...

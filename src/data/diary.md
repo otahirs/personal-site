@@ -11,7 +11,9 @@ We perceive 80 % of the information around us with our eyesight, yet these come 
 We come into the world with two basic instincts: the fear of death and for a consiberable part of life the desire to bring the next generation into the world. It was not allways as simple as that. For thousands of years, we have had little room to question what our purpose on Earth is, but once our basic needs are met, we can rightfully feel lost. Genetics and innate instincts have brought us to the edge of the Discworld, but beyond that we must continue alone.
 
 It is not hard to conclude that life has no meaning. The only certainty is death. After that, we are forgotten, the most of us sooner rather than later. Still, we can take and admire the ridiculous chance we got of wandering through space-time. This (literally) dreamlike circus of human society offers plenty of opportunities to fill our brains with happiness-inducing chemicals, and without a last judgment at the end of our mostly tragicomic lives, there's no reason to spend our entire existence huddled in a corner. Just because we weren't born with a purpose in life doesn't mean it can't be found along the way. Good luck.
+<div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/psaCM1j9LEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 # Growing up
 We are born as little silly creatures who are completely dependent on the care of those around us. As we grow up, we discover that we are not alone in the world. We learn (at least most of us) that we are not the center of the universe and must share the attention, space and other resources with others.
@@ -29,7 +31,9 @@ With women, there's an essential thing to realize. These are different beings th
 
 When I was writing this I forgot what the point was supposed to be, so I'll end it here. I have no choice but to also add that we should support girls because they don't always have it as easy as we do. period.
 
+<div class="video-container video-container-4-3">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/29JPnJSmDs0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 # The chains of addiction
 Behind every social network is a bunch of engineers who have one goal - to keep us on the platform for as long as possible to be presented as many ads as possible. By tracking our behaviour, we get a tailored cocktail of dopamine-producing posts/videos. The result is satisfied content consumption and a smile on our face. 
@@ -41,7 +45,9 @@ There's nothing better than overcoming the urge every now and then, shutting eve
 # Fighting the inner introvert
 No person is a pure introvert or extrovert, but some combination of both. I find that I tend to fall more into the introvert position, I'm best with friends, and I meet strangers more out of compulsion. What I would like to point out, however, is that when I ask myself how many times I have regretted going out, basically nothing comes to my mind. I think it's worth it to overcome the inner struggle sometimes, to go somewhere and then just tell yourself that it's not so bad after all. For a while now I say that I'm an forced extrovert, because despite the initial reluctance, after a while even strangers become friends and then even introverts can have fun.
 
+<div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MdG4f5Y3ugk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 # More to come when I'm bored again
 ...
