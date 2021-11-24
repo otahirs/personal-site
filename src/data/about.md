@@ -1,4 +1,4 @@
-I'm notorious procrastinator
+I love to castrate, let this site be proof of that
 <!-- # Who am i
 
 # School

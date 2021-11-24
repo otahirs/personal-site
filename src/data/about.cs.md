@@ -1,1 +1,1 @@
-Rád prograstinuju
+Rád prokastinuju, tato stránka nechť je toho důkazem
