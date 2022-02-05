@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import Hamburger from './Hamburger';
 import routes from '../../data/routes';
+import LanguageSelect from './LanguageSelect';
 
 // Websites Navbar, displays routes defined in 'src/data/routes'
 const Navigation = () => {
@@ -24,6 +25,7 @@ const Navigation = () => {
           ))}
         </ul>
       </nav>
+      <LanguageSelect />
       <Hamburger />
     </header>
   );

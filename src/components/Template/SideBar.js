@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation, Trans } from 'react-i18next';
-import LanguageSelect from './LanguageSelect';
 
 import ContactIcons from '../Contact/ContactIcons';
 
@@ -53,7 +52,6 @@ const SideBar = () => {
           {t('Kudos to')} <a href="https://github.com/mldangelo/personal-site" target="_blank" rel="noreferrer">Michael D&apos;Angelo</a> {t('and')} <a href="https://html5up.net/future-imperfect" target="_blank" rel="noreferrer">HTML5UP</a>.
         </p>
 
-        <LanguageSelect />
       </section>
     </section>
   );

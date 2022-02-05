@@ -5,13 +5,14 @@ const LanguageSelect = () => {
   const { i18n } = useTranslation();
   // const selected = localStorage.getItem('i18nextLng') || 'cs';
   // const { t } = useTranslation();
-  const csBorder = i18n.language === 'cs' ? {} : { boxShadow: 'none' };
-  const enBorder = i18n.language === 'en' ? {} : { boxShadow: 'none' };
+  const selectedStyle = { fontWeight: 'bold', color: '#3c3b3b' };
+  const csStyle = i18n.language === 'cs' ? selectedStyle : {};
+  const enStyle = i18n.language === 'en' ? selectedStyle : {};
 
   return (
-    <div>
-      <button style={csBorder} type="button" onClick={() => { i18n.changeLanguage('cs'); }}>CZ</button>
-      <button style={enBorder} type="button" onClick={() => { i18n.changeLanguage('en'); }}>ENG</button>
+    <div className="language-select">
+      <span style={csStyle} onClick={() => { i18n.changeLanguage('cs'); }}>CZ</span>
+      <span style={enStyle} onClick={() => { i18n.changeLanguage('en'); }}>ENG</span>
     </div>
   );
 };
