@@ -24,7 +24,7 @@ Když přijde puberta, začíná náš první významnější boj s autoritou. H
 Až později dospějeme k poznání, že k funkční společnosti je třeba vzájemného respektu, pravidel i hierarchie a že i zapřísáhlý nepřítel nám může tu a tam pomoci, nazabouhnem-li za ním zcela dveře. V mládí žijeme z vynucené autority, v pubertě s ní bojujeme až na hranici anarchie, ale teprve až zahodíme dodržovaní pravidel a uznávání formálních autorit z donucení, a vybudujeme naše vztahy znovu a to na vzájemn respektu, až pak můžeme mluvit o tom, že jsme dospěli. A i když nemůžeme často respektovat všechny vlasnoti daného člověka, u většiny lze nalést aspoň špetku dobrého, za což si přinejmenším část respektu zalouží.
 
 # Ženy nekoušou, většinou..
-U žen je třeba si přiznat základní věc. Jde o stejné bytosti jako my (muži). Mají také sny a touhy, životní cíle, vlastní problémy i strach z odmítnutí,.. co tím chtěl autor číct? Naše myšlení se zas tak moc neliší a měli bychom to brát do úvahy. Ruku na srce, i muže potěší více obrázek roztomilé kočičky než neznámeho dikobraza, uh.
+U žen je třeba si přiznat základní věc. Jde o stejné bytosti jako my (muži). Mají také sny a touhy, životní cíle, vlastní problémy i strach z odmítnutí,.. co tím chtěl autor říct? Naše myšlení se zas tak moc neliší a měli bychom to brát do úvahy. Ruku na srdce, i muže potěší více obrázek roztomilé kočičky než neznámeho dikobraza, uh.
 
 U žen je třeba si přiznat základní věc. Jde o jiné bytosti než my (muži). Především mají vždy pravdu.. rády mluví, ocení i dvacátou květinu a dokáží telefonovat déle než je příjemné. 
 
@@ -35,9 +35,9 @@ Při psaní jsem zapomněl, jaká měla být pointa, takže to tu ukončím, hla
 </div>
 
 # V zajetí pozornosti
-Za každou sociální sítí je hromada inženýrů, kteří mají jedinný cíl - udržet nás na platformě co nejdelší dobu, abychom zhlédli co nejvíce reklam. Pomocí sledování našecho chování dostáváme na tělo namíchaný kokteil příspěvků/videí produkující dopamin v co nejvyšší míře. Výsledkem je spokojené konzumování obsahu a usměv na tváři. 
+Za každou sociální sítí je hromada inženýrů, kteří mají jediný cíl - udržet nás na platformě co nejdelší dobu, abychom zhlédli co nejvíce reklam. Pomocí sledování našecho chování dostáváme na tělo namíchaný kokteil příspěvků/videí produkující dopamin v co nejvyšší míře. Výsledkem je spokojené konzumování obsahu a usměv na tváři. 
 
-Naše tělo však není na takové dávky zvyklé a zatímco během scrolování jsme pumpování chemikáliemi štestí o sto šest, normálním životem podobné hladiny jen steží dosáhneme. V důsledku toho nám nestačí běžné "odměny" co dostaneme za uklizený pokoj či splněný úkol, ale všechen svůj čas trávímě radši před obrazovkou. Co je horší, po zavření fb/instagramu/youtube/tickticku se pocity štestí rychle rozplynou a po kratší pauze už skoro nevědomky zase držíme mobil v ruce, jak se mozek dožaduje dalšího obsahu. Ostatně není tajenmstvím, že na podobném principu funguje i závislost na drogy.
+Naše tělo však není na takové dávky zvyklé a zatímco během scrolování jsme pumpování chemikáliemi štestí o sto šest, normálním životem podobné hladiny jen steží dosáhneme. V důsledku toho nám nestačí běžné "odměny" co dostaneme za uklizený pokoj či splněný úkol, ale všechen svůj čas trávímě radši před obrazovkou. Co je horší, po zavření fb/instagramu/youtube/tickticku se pocity štestí rychle rozplynou a po kratší pauze už skoro nevědomky zase držíme mobil v ruce, jak se mozek dožaduje dalšího obsahu. Ostatně není tajemstvím, že na podobném principu funguje i závislost na drogy.
 
 Není nadto občas překonat nutkání, všechno zavřít a oddat se pocitu nudy. Již za krátkou chvíli dá naše mysl naprosto cokoliv za trochu byť bežné "odměny" a i ono uklizení pokoje najednou nebude znít jako tak šílený nápad. Jako příjemný bonus můžeme večer ulehnout do postele s pocitem, že jsme dnes udělali něco užitečnějšího než zhlédnutí čtyři sta dvaceti videí s kočičkama. Nudit se je přirozené a jen tehdy se naplno rozjíždí naše kreativita. Ostatně při jednom takovém "detoxu" vznikají i tyto texty. ʕᵔᴥᵔʔ 
 
