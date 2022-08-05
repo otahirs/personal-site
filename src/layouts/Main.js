@@ -14,7 +14,7 @@ const Main = (props) => (
     <Helmet titleTemplate="%s | Otakar Hirš" defaultTitle="Otakar Hirš" defer={false}>
       {props.title && <title>{props.title}</title>}
       <meta name="description" content={props.description} />
-      <script async defer data-website-id="afd9597d-7ce4-455a-be66-490a6cb2c73e" src="https://analytics.otahirs.cz/umami.js" />
+      <script async defer data-website-id="afd9597d-7ce4-455a-be66-490a6cb2c73e" src="https://analytics.otahirs.cz/dQw4w9WgXcQ.js" />
     </Helmet>
     <div id="wrapper">
       <Navigation />
