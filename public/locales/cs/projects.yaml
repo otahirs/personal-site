@@ -1,8 +1,12 @@
 Projects: Projekty
 Learn about Otakar Hirš's projects.: Podívej se na kterých projektech pracuju.
-A growing selection of affiliated projects, that I&apos;m not too ashamed of: |
-  Stále se rozšiřující kolekce přidružených projektů, za které se zrovna tolik nestydím
-Currently under development.: Nyní ve vývoji
+A growing selection of affiliated projects, that I'm not too ashamed of: |
+  Výběr z projektů, za které se zrovna nemusím stydět
+Side hustle: Korunka ke korunce
+Real-time results delivery for orienteering events. Let's prove that I can trade my programming skills for a few pennies. Powered by Rust for a reliable and fast backend. Slick inteface with focus on UX build in React.: |
+  Živý přenos výsledků z radiokontrol na orienťáckých závodech. Pojďme si dokázat že dokážu vyměnit pár hodin nad kódem za nějaké ty drobné.
+  Server běží na Rustu. Uživatelské prostředí pro organizátory a závodníky je postaveno nad Reactem.
+Temporarily abandoned. Will get back o it in five years.: Dočasně opuštěno. Za pár let se k tomu vrátím.
 Information system for an orienteering club, including management of members data, event entries and finance, with focus on easy of use, automation and integration with other systems.: |
   Informační systém pro klub orientačního běhu. 
   Správa dat členu, přihlásek, financí, s důrazem na jednoduchost použití, 
@@ -12,7 +16,7 @@ Not a project founder, but finnaly a regular contributor. Feature rich open sour
   Nejde o můj projekt, ale jsem pravidelným přispěvatelem. 
   Na funkce bohatý otevřený software pro organizaci orienťáckých závodů. 
   Napsaný v C++. postaven nad Qt frameworkem, cílený jak na Linux tak Windows a vydán pod licencí GPL-2.0.
-From nothing to usefull software: Z ničeho k použitelnému softwaru
+First project, baby steps: První projekt. Všechno začalo u webu
 From no knowledge that JavaScript is not Java into fully functioning website with dynamic content generation and custom content managment system. Proof that with enought time and endless refactoring, anything is posssible.: |
   Ze začátky jsem neznal rozdíl mezi Javou a Javascriptem, 
   po probdělých nocích a nekonečném refaktoringu však vznikla fajn webovka 

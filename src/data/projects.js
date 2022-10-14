@@ -1,13 +1,14 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'ClubIS',
-    subtitle: 'Currently under development.',
-    link: 'https://github.com/otahirs/ClubIS',
-    image: '/images/projects/clubis.png',
+    title: 'OResults',
+    subtitle: 'Side hustle',
+    link: 'https://oresults.eu/about',
+    image: '/images/projects/oresults.png',
     desc:
-      'Information system for an orienteering club, including management of members data, event entries and finance, '
-      + 'with focus on easy of use, automation and integration with other systems.',
+    'Real-time results delivery for orienteering events. '
+     + 'Let\'s prove that I can trade my programming skills for a few pennies. '
+     + 'Powered by Rust for a reliable and fast backend. Slick inteface with focus on UX build in React.',
   },
   {
     title: 'QuickEvent',
@@ -21,9 +22,18 @@ const data = [
       + 'targeted for both Linux and Windows and released under the GPL-2.0 License.',
   },
   {
+    title: 'ClubIS',
+    subtitle: 'Temporarily abandoned. Will get back o it in five years.',
+    link: 'https://github.com/otahirs/ClubIS',
+    image: '/images/projects/clubis.png',
+    desc:
+    'Information system for an orienteering club, including management of members data, event entries and finance, '
+    + 'with focus on easy of use, automation and integration with other systems.',
+  },
+  {
     title: 'SK brno žabovřesky',
-    subtitle: 'From nothing to usefull software',
-    link: 'https://github.com/otahirs/zbm_web',
+    subtitle: 'First project, baby steps',
+    link: 'https://zabiny.club',
     image: '/images/projects/zabiny.png',
     desc:
       'From no knowledge that JavaScript is not Java into fully functioning '

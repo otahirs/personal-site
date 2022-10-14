@@ -19,7 +19,7 @@ const Projects = () => {
           <div className="title">
             <h2 data-testid="heading"><Link to="/projects">{t('Projects')}</Link></h2>
             <p>
-              {t('A growing selection of affiliated projects, that I&apos;m not too ashamed of')}
+              {t('A growing selection of affiliated projects, that I\'m not too ashamed of')}
             </p>
           </div>
         </header>
