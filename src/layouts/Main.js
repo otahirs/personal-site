@@ -15,6 +15,7 @@ const Main = (props) => (
       {props.title && <title>{props.title}</title>}
       <meta name="description" content={props.description} />
       <script async defer data-website-id="afd9597d-7ce4-455a-be66-490a6cb2c73e" src="https://analytics.otahirs.cz/dQw4w9WgXcQ.js" />
+      <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript" />
     </Helmet>
     <div id="wrapper">
       <Navigation />

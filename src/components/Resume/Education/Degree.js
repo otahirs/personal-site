@@ -6,7 +6,7 @@ const Degree = ({ data, t }) => (
   <article className="degree-container">
     <header>
       <h4 className="degree">{t(data.degree)}</h4>
-      <p className="school"><a href={data.link}>{t(data.school)}</a>, {data.year} - {t('now')}</p>
+      <p className="school"><a href={data.link}>{t(data.school)}</a>, {t(data.year)}</p>
     </header>
   </article>
 );

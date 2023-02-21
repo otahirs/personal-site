@@ -12,36 +12,36 @@ const skills = [
     competency: 2,
     category: ['Human stuff'],
   },
-  {
-    title: 'C',
-    competency: 2,
-    category: ['Peep poop'],
-  },
-  {
-    title: 'C++',
-    competency: 2,
-    category: ['Peep poop'],
-  },
-  {
-    title: 'C#',
-    competency: 3,
-    category: ['Peep poop'],
-  },
-  {
-    title: 'Python',
-    competency: 1,
-    category: ['Peep poop'],
-  },
-  {
-    title: 'Rust',
-    competency: 1,
-    category: ['Peep poop'],
-  },
-  {
-    title: 'J̶a̶v̶a̶',
-    competency: 0,
-    category: ['Peep poop'],
-  },
+  // {
+  //   title: 'C',
+  //   competency: 2,
+  //   category: ['Peep poop'],
+  // },
+  // {
+  //   title: 'C++',
+  //   competency: 2,
+  //   category: ['Peep poop'],
+  // },
+  // {
+  //   title: 'C#',
+  //   competency: 3,
+  //   category: ['Peep poop'],
+  // },
+  // {
+  //   title: 'Python',
+  //   competency: 1,
+  //   category: ['Peep poop'],
+  // },
+  // {
+  //   title: 'Rust',
+  //   competency: 1,
+  //   category: ['Peep poop'],
+  // },
+  // {
+  //   title: 'J̶a̶v̶a̶',
+  //   competency: 0,
+  //   category: ['Peep poop'],
+  // },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
 // this is a list of colors that I like. The length should be == to the

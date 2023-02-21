@@ -39,6 +39,23 @@ const Resume = () => {
                 You can send me proposals for fun projects or interesting jobs.<br />
                 I enjoy learning new things and crave for real world impact.
               </Trans>
+              <div
+                className="badge-base LI-profile-badge"
+                data-locale="en_US"
+                data-size="medium"
+                data-theme="light"
+                data-type="VERTICAL"
+                data-vanity="otahirs"
+                data-version="v1"
+              >
+                <a
+                  className="badge-base__link LI-simple-link"
+                  href="https://cz.linkedin.com/in/otahirs?trk=profile-badge"
+                >
+                  LinkedIn
+                </a>
+              </div>
+
             </p>
             {/* <div className="link-container">
               {sections.map((sec) => (

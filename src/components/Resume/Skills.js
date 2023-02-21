@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withTranslation } from 'react-i18next';
 
-import CategoryButton from './Skills/CategoryButton';
-import SkillBar from './Skills/SkillBar';
+// import CategoryButton from './Skills/CategoryButton';
+// import SkillBar from './Skills/SkillBar';
 
 const handleProps = ({ categories, skills, t }) => ({
   buttons: categories.map((cat) => t(cat.name)).reduce((obj, key) => ({
@@ -20,6 +20,7 @@ class Skills extends Component {
     this.state = handleProps({ categories: props.categories, skills: props.skills, t: props.t });
   }
 
+  /*
   getRows() {
     // search for true active categories
     const actCat = Object.keys(this.state.buttons).reduce((cat, key) => (
@@ -45,7 +46,7 @@ class Skills extends Component {
       ));
   }
 
-  getButtons() {
+   getButtons() {
     return Object.keys(this.state.buttons).map((key) => (
       <CategoryButton
         label={this.props.t(key)}
@@ -55,7 +56,6 @@ class Skills extends Component {
       />
     ));
   }
-
   handleChildClick = (label) => {
     this.setState((prevState) => {
       // Toggle button that was clicked. Turn all other buttons off.
@@ -68,23 +68,45 @@ class Skills extends Component {
       return { buttons };
     });
   }
+ */
 
   render() {
+    const { t } = this.props;
     return (
       <div className="skills">
         <div className="link-to" id="skills" />
         <div className="title">
-          <h3>{this.props.t('Skills')}</h3>
-          <p>
-            {this.props.t('Here is a *mostly* honest overview of my language proficiencies.')}
-          </p>
+          <h3>{t('Skills')}</h3>
         </div>
-        <div className="skill-button-container">
-          {this.getButtons()}
-        </div>
-        <div className="skill-row-container">
-          {this.getRows()}
-        </div>
+        <article className="jobs-container">
+          <header>
+            <h4>{t('IT')}</h4>
+          </header>
+          <ul>
+            <li>{t('Relaxed in programming languages such as')} <b>Rust</b>, C#, C, C++ {t('and')} JS/TS</li>
+            <li>{t('Knowledgeable of')} <b>{t('linux')}</b> {t('operating system and')} <b>{t('networking')}</b></li>
+            <li>{t('Skilled in database systems and')} <b>SQL</b></li>
+            <li>
+              {t('Experience with technologies as')} <b>Git</b>, <b>Docker</b>, <b>React</b>
+              , <b>PostgresSQL</b>, Blazor
+            </li>
+            <li>{t('Ability to write non-spaghetti code and use efficient data structures')}</li>
+            <li>{t('Strong foundation in mathematical and logical concepts')}</li>
+          </ul>
+          <header>
+            <h4>{t('Languages')}</h4>
+          </header>
+          <ul className="points">
+            <li>{t('English')} - C1</li>
+            <li>{t('German')} - A2</li>
+          </ul>
+        </article>
+        {/* <div className="skill-button-container"> */}
+        {/*   {this.getButtons()} */}
+        {/* </div> */}
+        {/* <div className="skill-row-container"> */}
+        {/*   {this.getRows()} */}
+        {/* </div> */}
       </div>
     );
   }
