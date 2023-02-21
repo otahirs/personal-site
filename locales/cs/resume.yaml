@@ -4,10 +4,12 @@ SUBTITLE: |
   Můžete mi posílat návrhy na zajímavé projekty či nabídky práce.<1 />
   Rád se učím nové věci a vídím dopad své práce na reálný život.
 Education: Vzdělání
-Programming and development: Programování a vývoj aplikací
+M.S. Software Engineering: Ing. Software Engineering
+B.S. Programming and development: Bc. Programování a vývoj aplikací
 Masaryk University: Masarykova univerzita
-now: nyní
+'2022 - now': 2022 - nyní
 Skills: Dovednosti
+IT: AjTý
 Internship: Stáž
 Experience: Zkušenosti
 January 2020 - June 2021: leden 2020 - červen 2021
@@ -16,10 +18,7 @@ Winner of the rack cabble managment competition (if it was to be held).: Vítěz
 September 2017 - December 2019: září 2017 - prosinec 2019
 Managing all of the underfunded IT systems of primary school.: Správa všech podfinancovaných IT systémů základní školy.
 Mainly solving problems I accidentaly caused in the first place.: Většinou řešení problémů, které jsem sám dříve způsobil.
-Here is a *mostly* honest overview of my language proficiencies.: Tady je *přibližně* upřímný přehled mých jazykových dovedností
-All: Vše
-Human stuff: Člověčí
-Peep poop: Ajtý
+Languages: Jazyky
 English: Angličtina
 German: Němčina
 Selected Courses: Vybrané kurzy
@@ -33,3 +32,14 @@ C++ Programming: Programování v jazyce C++
 Domain specific development in C/C++: Tematicky zaměřený vývoj aplikací v jazyce C/C++
 Authentication and Access Control: Autentizace a řízení přístupu
 System Development in C#/.NET: Vývoj systémů v C#/.NET
+and: a
+Relaxed in programming languages such as: Sebejistý v programovacích jazycích jako
+Knowledgeable of: Umí to s věcmi jako
+linux: linux
+operating system and: a rozumí
+networking: síťaření
+Knowledgeable of linux operating system and networking: Umí to s linuxem a rozumí síťaření
+Skilled in database systems and: Znalost databázových systémů a jazyka
+Experience with technologies as: Zkušenosti s technologiemi
+Ability to write non-spaghetti code and use efficient data structures: Schopnost psát nešpagetoidní kód a používat efektivní datové struktury
+Strong foundation in mathematical and logical concepts: Silné teoretické a matematická základy
