@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <Main
       title={t('Contact')}
-      description={t('Contact Otakar Hirš via email @ conact@otahirs.cz')}
+      description={t('Contact Otakar Hirš via email @ conact@otakar.io')}
     >
       <article className="post" id="contact">
         <header>
