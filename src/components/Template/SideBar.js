@@ -16,7 +16,7 @@ const SideBar = () => {
         </Link>
         <header>
           <h2>Otakar Hirš</h2>
-          <p><a href="mailto:otakar.hirs@gmail.com">otakar.hirs@gmail.com</a></p>
+          <p><a href="mailto:contact@otakar.io">contact@otakar.io</a></p>
         </header>
       </section>
       <section className="blurb">
